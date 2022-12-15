@@ -1,0 +1,74 @@
+body{
+    box-sizing: border-box;
+    background-image: url(Assets/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    margin: auto;
+    padding: 15px;
+}
+.card0{
+    margin-top: 50px;
+    padding: 10px;
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    background-color: rgb(1, 50, 67);
+}
+header{
+    color: white;
+   padding-top: 20px;
+}
+header p{
+    font-size: x-large;
+}
+img{
+    height:450px ;
+    width: 500px;
+}
+.card1{
+margin-top: 50px;
+font-size: larger;
+color: black;
+background-color: white;
+width: 500px;
+padding: 20px;
+}
+form{
+    display: flex;
+ flex-direction: column;
+}
+#email{
+    height: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: #7777;
+}
+#password{
+   height: 15px;
+   padding: 15px;
+   border-radius: 5px;
+   border-color: #7777;
+}
+.check{
+    color: rgb(1, 50, 67);
+}
+#button{
+    height: 50px;
+    width: 440px;
+    color: white;
+    background-color: rgb(1, 50, 67);
+    border-style: none;
+    border-radius: 5px;
+}
+#button:hover{
+    color: rgb(1, 50, 67);
+    border: solid 3px rgb(1, 50, 67);
+    background-color: white;
+    font-size: medium;
+    transition: 0.5s;
+}
